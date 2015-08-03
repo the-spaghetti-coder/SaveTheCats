@@ -7,7 +7,7 @@
 
     <com.google.android.gms.ads.AdView
         android:id="@+id/dialogAdView"
-        android:layout_width="wrap_content"
+        android:layout_width="320dp"
         android:layout_height="wrap_content"
         android:layout_centerHorizontal="true"
         android:layout_alignParentBottom="true"
