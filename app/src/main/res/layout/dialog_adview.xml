@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:ads="http://schemas.android.com/apk/res-auto"
+    >
+
+    <com.google.android.gms.ads.AdView
+        android:id="@+id/dialogAdView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"
+        ads:adSize="BANNER"
+        ads:adUnitId="@string/banner_ad_unit_id"
+        android:layout_gravity="center_horizontal|top">
+    </com.google.android.gms.ads.AdView>
+
+    <Button
+        android:layout_width="384dp"
+        android:layout_height="wrap_content"
+        android:text="Good job! You&apos;ve helped save a cat!"
+        android:id="@+id/dialogBtn"
+        android:layout_gravity="center_horizontal"
+        android:onClick="dialogButtonClicked"
+        android:visibility="invisible" />
+
+</LinearLayout>
